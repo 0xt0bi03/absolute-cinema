@@ -1,0 +1,41 @@
+/* ROOT VARIABLES */
+:root
+{
+    --bg: #111;
+    --fg: bisque;
+    --framebg: #333;
+}
+
+body
+{
+    background-color: var(--bg);
+    color: var(--fg);
+
+    /* DISPLAY */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.frame
+{
+    background-color: var(--framebg);
+    width: 600px;
+    height: 90vh;
+
+    /* BORDERS */
+    box-sizing: border-box;
+    padding: 4%;
+}
+
+#title
+{
+    /* BORDERS */
+    margin: 0;
+}
+
+#desc
+{
+    font-size: 25px;
+}
