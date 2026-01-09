@@ -24,7 +24,8 @@ body
 .frame
 {
     background-color: var(--framebg);
-    width: 600px;
+    width: 60vw;
+    min-width: 700px;
     height: 90vh;
 
     /* BORDERS */
@@ -82,4 +83,13 @@ body
 {
     width: 50%;
     background-color: yellow;
+
+    /*  */
+}
+
+.img
+{
+    background-color: brown;
+    width: 90%;
+    height: 40%;
 }
