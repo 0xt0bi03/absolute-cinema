@@ -67,8 +67,8 @@ body
 
 .left
 {
-    background-color: yellowgreen;
-    width: 50%;
+    /* background-color: yellowgreen; */
+    width: 20%;
 
     /* PADDING */
     padding: 8%;
@@ -77,19 +77,31 @@ body
     /* DISPPLAY */
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
 }
 .right
 {
-    width: 50%;
-    background-color: yellow;
+    /* width: 50%; */
+    flex: 1;
+    /* background-color: yellow; */
 
-    /*  */
+    /* DISPLAY */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .img
 {
     background-color: brown;
     width: 90%;
-    height: 40%;
+    height: 70%;
+}
+
+
+.btns
+{
+    width: 100px;
+    height: 50px;
 }
