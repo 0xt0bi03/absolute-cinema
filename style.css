@@ -4,6 +4,7 @@
     --bg: #111;
     --fg: bisque;
     --framebg: #333;
+    --btnbg: #555;
 }
 
 
@@ -57,7 +58,7 @@ body
 {
     width: 100%;
     flex: 1;
-    background-color: teal;
+    /* background-color: teal; */
 
     /* DISPLAY */
     display: flex;
@@ -104,4 +105,20 @@ body
 {
     width: 100px;
     height: 50px;
+    background-color: var(--btnbg);
+    color: var(--fg);
+    border: none;
+    border-radius: 10px;
+
+    transition: transform 0.1s ease-out;
+}
+
+.btns:hover
+{
+    background-color: #666;
+}
+
+.btns:active
+{
+    transform: scale(0.85);
 }
