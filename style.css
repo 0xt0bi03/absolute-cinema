@@ -59,16 +59,27 @@ body
     background-color: teal;
 
     /* DISPLAY */
-    
+    display: flex;
+
 
 }
 
 .left
 {
     background-color: yellowgreen;
+    width: 50%;
+
+    /* PADDING */
+    padding: 8%;
+    box-sizing: border-box;
+
+    /* DISPPLAY */
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .right
 {
+    width: 50%;
     background-color: yellow;
 }
